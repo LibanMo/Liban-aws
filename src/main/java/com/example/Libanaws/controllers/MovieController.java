@@ -19,7 +19,7 @@ public class MovieController {
 
     @GetMapping("/")
     public String hello(){
-        return "hello";
+        return "Code Build";
     }
 
     @GetMapping("/all")
